@@ -1,0 +1,29 @@
+.App{
+  text-align: center;
+}
+.images{
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: center;
+  margin-top: 50px
+}
+.image{
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+  background: rgb(233, 234, 243);
+  margin-right:30px;
+}
+.image:nth-child(3n){
+  margin-right: 0px;
+}
+.image img{
+  width: 200px;
+  height: 200px;
+  
+}
+.info{
+  padding-left: 30px;
+  width: 300px;
+  text-align: left;
+}
